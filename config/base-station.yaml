@@ -1,4 +1,4 @@
-swiftnav_ros2_driver:
+piksi_base_station/swiftnav_ros2_driver:
   ros__parameters:
 
     # SwiftNav GNSS Receiver Interface
@@ -7,8 +7,8 @@ swiftnav_ros2_driver:
     # TCP Client (interface: 1)
     host_ip: "base-station-rtk.ira.disco.unimib.it"
     host_port: 55555
-    read_timeout: 2000  # [ms]
-    write_timeout: 2000 # [ms]
+    read_timeout: 5000  # [ms]
+    write_timeout: 5000 # [ms]
 
     # ROS2 Frame Name
     frame_name: "swiftnav-gnss-base-station"

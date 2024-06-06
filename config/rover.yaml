@@ -1,4 +1,4 @@
-swiftnav_ros2_driver:
+piksi_rover/swiftnav_ros2_driver:
   ros__parameters:
 
     # SwiftNav GNSS Receiver Interface

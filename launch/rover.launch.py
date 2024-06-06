@@ -25,7 +25,8 @@ def generate_launch_description():
   node = Node(
       package='swiftnav_ros2_driver',
       executable='sbp-to-ros',
-      parameters=[config]
+      parameters=[config],
+      namespace='piksi_rover'
   )
 
   launch_desc.add_action(node)
