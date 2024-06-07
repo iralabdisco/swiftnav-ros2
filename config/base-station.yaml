@@ -29,9 +29,7 @@ piksi_base_station/swiftnav_ros2_driver:
         "gpsfix",
         "navsatfix",
         "twistwithcovariancestamped",
-        "baseline",
         "timereference",
-        "imu"
       ]
 
     # SBP Logging
